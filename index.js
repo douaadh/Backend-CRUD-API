@@ -11,7 +11,7 @@ app.use(express.json());
 
 // 3. MongoDB Connection
 const MONGODB_URI =
-  "mongodb://douaadouha12_db_user:J073cfoDmt4VEAe6@ac-zunnr8n-shard-00-00.v0g7bto.mongodb.net:27017,ac-zunnr8n-shard-00-01.v0g7bto.mongodb.net:27017,ac-zunnr8n-shard-00-02.v0g7bto.mongodb.net:27017/?ssl=true&replicaSet=atlas-ivaf1z-shard-0&authSource=admin";
+  "mongodb://UR-USENAME:Ur-PASSWORD@ac-zunnr8n-shard-00-00.v0g7bto.mongodb.net:27017,ac-zunnr8n-shard-00-01.v0g7bto.mongodb.net:27017,ac-zunnr8n-shard-00-02.v0g7bto.mongodb.net:27017/?ssl=true&replicaSet=atlas-ivaf1z-shard-0&authSource=admin";
 
 mongoose
   .connect(MONGODB_URI)
